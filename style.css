@@ -116,12 +116,12 @@ header {
     opacity: 0.6;
 }
 
-.card-1::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_sima.jpg'); }
-.card-2::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_uj.jpg'); }
-.card-3::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_feher.jpg'); }
-.card-4::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_kulonleges.jpg'); }
-.card-5::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_gpu.jpg'); }
-.card-6::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_cpu.jpg'); }
+.card-1::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('menu_sima.jpg'); }
+.card-2::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('menu_uj.jpg'); }
+.card-3::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('menu_feher.jpg'); }
+.card-4::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('menu_kulonleges.jpg'); }
+.card-5::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('menu_gpu.jpg'); }
+.card-6::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('menu_cpu.jpg'); }
 
 .guide-card h2 {
     position: relative;
