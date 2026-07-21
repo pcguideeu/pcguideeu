@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-style: border-box;
+    box-sizing: border-box; /* Javítva: box-style helyett box-sizing */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -100,7 +100,7 @@ header {
     box-shadow: 0 12px 25px rgba(89, 200, 230, 0.3);
 }
 
-/* Képek beolvasása a te saját kepek/ mappádból és fájlneveidből */
+/* Képek beolvasása a kepek/ mappából */
 .guide-card::before {
     content: '';
     position: absolute;
@@ -116,12 +116,12 @@ header {
     opacity: 0.6;
 }
 
-.card-1::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('kepek/menu_sima.jpg'); }
-.card-2::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('kepek/menu_uj.jpg'); }
-.card-3::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('kepek/menu_feher.jpg'); }
-.card-4::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('kepek/menu_kulonleges.jpg'); }
-.card-5::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('kepek/menu_gpu.jpg'); }
-.card-6::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('kepek/menu_cpu.jpg'); }
+.card-1::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_sima.jpg'); }
+.card-2::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_uj.jpg'); }
+.card-3::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_feher.jpg'); }
+.card-4::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_kulonleges.jpg'); }
+.card-5::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_gpu.jpg'); }
+.card-6::before { background-image: linear-gradient(rgba(0,0,0,0.3), #1A1D21), url('./kepek/menu_cpu.jpg'); }
 
 .guide-card h2 {
     position: relative;
