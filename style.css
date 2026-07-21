@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Javítva: box-style helyett box-sizing */
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -34,31 +34,22 @@ header {
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-decoration: none; /* Aláhúzás megszüntetése */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    transition: opacity 0.2s;
 }
 
-.bmac-btn {
-    background-color: #ffffff;
-    color: #1A1D21;
-    padding: 8px 16px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    transition: background 0.3s;
-}
-
-.bmac-btn:hover {
-    background-color: #1A1D21;
-    color: #ffffff;
+.header-title:hover {
+    opacity: 0.85; /* Finom visszajelzés egérrávitelkor */
 }
 
 .lang-select {
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
+    margin-left: auto; /* Jobbra igazítás, mivel a gomb kikerült */
 }
 
 /* Főoldali Kártyák (Grid) */
@@ -223,5 +214,5 @@ header {
 .accordion-content {
     padding: 20px;
     background-color: #f9f9f9;
-    display: none; /* Alapértelmezetten csukva */
+    display: none;
 }
